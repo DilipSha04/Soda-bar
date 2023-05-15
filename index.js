@@ -4,13 +4,15 @@
 
  const wrapper = document.querySelector(".sidebar").classList;
 
+
+
  closeMenu.addEventListener("click", ()=>{
-   wrapper.toggle("opened");
    wrapper.toggle("closed");
-   })
-   
- openMenu.addEventListener("click", ()=>{
    wrapper.toggle("opened");
-   wrapper.toggle("closed");
    })
+ 
+openMenu.addEventListener("click", ()=>{
+  wrapper.toggle("opened");
+ wrapper.toggle("closed");
+ })
  
