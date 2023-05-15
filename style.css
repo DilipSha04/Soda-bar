@@ -12,7 +12,7 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.719);
     flex-wrap: wrap;
     width: 100%;
-    height: 80px;
+    height: 70px;
     position: fixed;
     color: rgb(0, 0, 0);
     z-index: 1;
@@ -29,6 +29,7 @@
     font-size: 28px;
     font-weight: 700;
     font-family: 'Fredoka', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     
 }
@@ -63,12 +64,12 @@
 }
 .nav-link{
     display: flex;
-    padding: 10px;
+    padding: 8px;
 }
 .list-item{
     list-style: none;
-    margin: 1rem;
-    font-size: 27px;
+    margin: .8rem;
+    font-size: 25px;
     font-weight: 500;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
@@ -106,7 +107,7 @@
    right: 10%;
 }
 img{
-    height: 36px;
+    height: 34px;
     width: auto;
     margin: 0 12px;
     cursor: pointer;
@@ -140,12 +141,12 @@ img{
 .hero-head{
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 26%;
     /* font-weight: 600; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .hero-h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: rgb(0, 0, 0);
     font-weight: 600;
 
@@ -153,7 +154,7 @@ img{
 .hero-para{
     position: absolute;
     font-size: 2rem;
-    left: 14%;
+    left: 8%;
     /* margin: 16px 60px; */
     
 }
@@ -161,7 +162,7 @@ img{
 /***********about-container******/
 
 .about-container{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -174,7 +175,7 @@ img{
 .about-hero,.menu-head-text{
     position: absolute;
     left: 46%;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: underline;
     margin-top: 28px;
@@ -213,6 +214,7 @@ img{
    
     height: 350px;
     width: 330px;
+    margin-top: 3rem;
 }
 .imgText-intro{
     top: 90%;
@@ -226,18 +228,18 @@ img{
 
 
 
-/* menu-container */
+/****************** menu-container ***************/
 .menu-container{
-    height: 80vh;
+    height: auto;
     width: 100%;
 }
 .menu-head-text{
     left:48%;
 }
 .wrapper{
-    margin-left: 6rem;
+    margin-left: 5rem;
     display: flex;
-    padding-top: 10rem;
+    padding-top: 6rem;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -260,16 +262,19 @@ img{
 }
 .card-para{
     padding: 0 8px;
+    margin-top: 6px;
     color: black;
     font-weight: 600;
     font-size: 18px;
     text-align: center;
 }
-/* services container */
+
+/****************** services container ***************/
 
 .services-container{
-    height: 100vh;
+    height: auto;
     width: 100%;
+    
 
 }
 /* for mobile */
@@ -282,13 +287,14 @@ img{
     font-size: 2.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: underline;
-    margin-top: 10px;
+    margin-top: 2rem;
 }
 
 .service-img{
-    height: fit-content;
+    height: 40rem;
     width: auto;
-    margin-left: 18rem;
+    margin-left: 14rem;
+    margin-top: 2rem;
 }
 /* contact container */
 
@@ -344,7 +350,7 @@ img{
     border-bottom: 2px solid #a3e635;
     outline: #50cd11;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 .msg-btn{
     padding: 0.6rem 0;
@@ -369,7 +375,7 @@ img{
 }
 .contact-para{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 2rem;
 }
 .form2{
@@ -379,15 +385,21 @@ img{
 .form2-item{
     list-style: none;
     margin: 1rem 0;
-    font-size: 20px;
-    line-height: 3;
+    font-size: 18px;
+    line-height: 2.5;
 }
 .material-symbols-outlined{
     margin: 0 1rem;
 }
 .icon-footer{
     position: absolute;
-    right: 24%;
+    display: flex;
+    flex-direction: column;
+    right: 2%;
+    bottom: 20%;
+}
+.social-icon-footer{
+    margin: 10px 0;
 }
 /* footer starts here */
 .footer{
@@ -497,6 +509,8 @@ img{
      .hero-head{
         inset: 20%;
         width: auto;
+        position: absolute;
+        top: 25%;
      }
      .hero-h1{
         margin-top: 22px;
@@ -520,7 +534,7 @@ img{
      .para-container{
         width: 80%;
         right: 10%;
-        top: 58%;
+        top: 54%;
         position: absolute;
      }
      .about-para{
@@ -535,7 +549,11 @@ img{
      }
      .img-background{
         left: 5%;
+        top: 5%;
         margin: 10px;
+     }
+     .imgText-intro{
+        margin-top: 28px;
      }
   
 
@@ -566,9 +584,12 @@ img{
         width: 80%;
         margin: 8px 0;
      }
+
      /* services-container */
+
      .services-container{
-        height: auto;
+        height: 100vh;
+        position: relative;
      }
      .service-img{
         display: none;
@@ -581,7 +602,8 @@ img{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding-top: 4rem;
+        position: absolute;
+        top: 13%;
      }
      .service-card{
         text-align: center;
@@ -590,6 +612,9 @@ img{
         margin: 1rem .8rem;
         padding: 1rem;
         border-radius: 12px;
+     }
+     .service-card-head{
+        font-size: 24px;
      }
      .service-card-para{
         font-size: 22px;
@@ -609,7 +634,7 @@ img{
         align-items: center;
      }
      .contact-head{
-        left: 30%;
+        left: 35%;
         top: 2%;
      }
      .msg-col-head{
