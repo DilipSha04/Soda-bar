@@ -1,4 +1,4 @@
-*,body{
+*,html,body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -131,7 +131,7 @@ img{
     height: 100vh;
     width: 100%;
     /* background-color: #716f72;  */
-    background-image: url(img/pexels-alexander-grey-1196507.jpg);
+    background-image: url(img/5colors\ glass.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,8 +274,6 @@ img{
 .services-container{
     height: auto;
     width: 100%;
-    
-
 }
 /* for mobile */
 .service-wrapper{
@@ -420,10 +418,9 @@ img{
 /* media query */
 
 @media  (width <= 600px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
+     body{
+        margin-right: -20px;
+     }
     .navbar{
         display: flex;
         position: fixed;
@@ -503,11 +500,11 @@ img{
 
      .container-head{
         background-image: linear-gradient(120deg,
-        rgba(50, 219, 56, 0.272),
-        rgba(132, 155, 50, 0.146)), url(img/sodaimg\ mob.jpg);
+        rgba(12, 54, 13, 0.459),
+        rgba(55, 66, 14, 0.438)), url(img/sodaimg\ mob\ resize.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:cover ;
         z-index: -1;
         
      }
