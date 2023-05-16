@@ -131,7 +131,7 @@ img{
     height: 100vh;
     width: 100%;
     /* background-color: #716f72;  */
-    background-image: url(img/colors\ glass.png);
+    background-image: url(img/colorsglass.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -500,8 +500,8 @@ img{
 
      .container-head{
         background-image: linear-gradient(120deg,
-        rgba(12, 54, 13, 0.459),
-        rgba(55, 66, 14, 0.438)), url(img/sodaimgmobresize.png);
+        rgba(12, 54, 13, 0.267),
+        rgba(55, 66, 14, 0.224)), url(img/sodaimgmobresize.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
