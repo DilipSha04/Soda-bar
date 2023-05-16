@@ -420,6 +420,7 @@ img{
 @media  (width <= 600px){
      body{
         margin-right: -50px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      }
     .navbar{
         display: flex;
@@ -547,7 +548,7 @@ img{
         bottom: 0;
         right: 0;
         margin: 10px;
-        font-size: 24px;
+        font-size: 26px;
      }
      .img-background{
         left: 5%;
@@ -561,6 +562,7 @@ img{
      .imgText-intro{
         margin-top: 28px;
         font-size: 18px;
+        left: 9%;
      }
   
 
