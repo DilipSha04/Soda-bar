@@ -627,6 +627,7 @@ img{
      }
      .service-card-para{
         font-size: 22px;
+        text-transform: capitalize;
 
      }
      /* contact-container  */
